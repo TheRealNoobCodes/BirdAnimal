@@ -5,12 +5,8 @@ class crow extends Bird {
     lifeSpan: number;
 
     Beak: Boolean; 
-        constructor(name: string, population: number, age: number, location: string, iq: number, ) {
+        constructor(name: string, population: number, age: number, location: string, iq: number, lifespan: number ) {
         super(name, population, age, location );
-        this.lifeSpan = lifespan; 
-        this.Color = color; 
-        this.Beak = beak; 
-        this.Sing = sing; 
-        this.Population = coos; 
+        this.lifeSpan = lifespan;
     }
 }

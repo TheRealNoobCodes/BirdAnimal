@@ -1,10 +1,16 @@
+"use strict";
+exports.__esModule = true;
+exports.Bird = void 0;
 var Bird = /** @class */ (function () {
     function Bird(name, population, age, location) {
-        this.Name = name;
-        this.Population = population;
-        this.Age = age;
-        this.Location = location;
+        this.name = name;
+        this.population = population;
+        this.age = age;
+        this.location = location;
     }
+    Bird.prototype.getLocation = function () {
+        return "Something random";
+    };
     Bird.prototype.getBird = function () {
         return "This Bird is a ____";
     };
@@ -13,3 +19,4 @@ var Bird = /** @class */ (function () {
     };
     return Bird;
 }());
+exports.Bird = Bird;

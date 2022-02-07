@@ -16,6 +16,8 @@ class Falcon extends Bird{
      this. Endangered = Endangered
     }
 
-     FalconWingspanEgo(Wingspan: number): string);
+     FalconWingspanEgo(Wingspan: number): string{
+         return "test";
+     };
     //return
 }
